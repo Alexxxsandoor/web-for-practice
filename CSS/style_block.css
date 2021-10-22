@@ -1,0 +1,175 @@
+﻿body {
+   
+}
+@font-face {
+    font-family: "AmazS";
+    src: url("AmazS.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+} 
+/*верхняя шапка */
+/*.header {
+    color: white;
+    width: 100%;
+    height: 100px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+      */
+
+.header {
+    position: relative;
+    color: white;
+    
+    height: 80px;
+    background: black;
+
+    top: -10px;
+ 
+ 
+    
+}
+    .header p {
+        font-size: 75px;
+        font-family: Heartless;
+        
+        margin: 0;
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+    .header a {
+        font-size: 100px;
+        font-family: HARDBOR;
+        color: red;
+    }
+
+
+
+
+
+
+
+
+
+/*блок менюшки*/
+.block_menu {
+    min-width: 280px;
+    min-height: 600px;
+    margin-left: 4%;
+    margin-top: 4%;
+    float: left;
+   
+}
+.block_menu img {
+    width: 280px;
+    height: 600px;
+}
+ .container {
+        
+          
+            max-width: 1400px;
+            margin: 0px auto;
+            padding: 0px 15px;
+        }
+.block_info_img {
+    max-width: 100%;
+    margin-top: 20px;
+    float: left;
+    
+    max-width: 500px;
+}
+    .block_info_img img {
+        max-width: 100%;
+        margin-top: 20px;
+        float: left;
+    }
+.block_info_text p[id="zagolovok"] {
+    margin-top: 0;
+    text-align: center;
+    font-family: Heartless;
+    font-size: 50px;
+}
+.block_info_text p[id="pole"] {
+    margin-top: -5px;
+    
+    font-family: RomanD;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.block_info_text {
+
+   
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+    text-align: justify; /* Выравнивание по ширине */
+    font-family: RomanD;
+    font-size: 25px;
+    max-width: 800px;
+    
+}
+.block_menu_text {
+    max-width: 100%;
+    position: relative;
+    height: 70px;
+    font-family: Heartless;
+    
+    font-size: 55px;
+    text-align: center;
+}
+
+.current_page {
+    color: red;
+    text-decoration: none;
+}
+.off_current_page {
+    color: black;
+    text-decoration: none;
+}
+    .off_current_page:hover {
+        color: red;
+        text-decoration: none;
+    }
+.current_page:hover {
+    color: black;
+    text-decoration: none;
+}
+.bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+.comment {
+    text-align: center;
+  
+    height: 500px;
+    max-width: 800px;
+    float: left;
+}
+
+h2 {
+    font-family: Heartless;
+    font-size: 50px;
+}
+form {
+    font-family: RomanD;
+    font-size: 25px;
+}
+input {
+    background-color: orange; /* Green */
+    border: none;
+    font-family: RomanD;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
